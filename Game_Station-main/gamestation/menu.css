@@ -76,6 +76,7 @@ h2, h3 {
 }
 
 .aviso{
+    display: flex;
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 200;
