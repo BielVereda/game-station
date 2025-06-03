@@ -48,6 +48,15 @@ h1 {
     background-color: black;
 }
 
+h2, h3 {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    text-align: center;
+    background-color: #1e2a47;
+}
+
 .titulo {
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
@@ -119,7 +128,7 @@ h1 {
 footer{
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
     text-align: center;
 }
