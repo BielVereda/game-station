@@ -42,10 +42,22 @@ h1 {
     font-style: normal;
     text-align: center;
     margin-top: 2em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;    
+    background-color: black;
+}
+
+.titulo {
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    margin-top: 2em;
     margin-bottom: 2em;
     padding-left: 1em;
-    padding-right: 1em;
-    background-color: black;
+    padding-right: 1em;    
 }
 
 .container-pesquisa {
