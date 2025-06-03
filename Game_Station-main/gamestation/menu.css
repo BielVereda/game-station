@@ -76,6 +76,10 @@ h2, h3 {
 }
 
 .aviso{
+    font-family: "Pixelify Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     background-color: #0A1F3D;
     align-itens: center;
 }
