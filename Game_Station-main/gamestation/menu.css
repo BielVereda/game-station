@@ -143,8 +143,7 @@ h2, h3 {
 }
 
 footer{
-    display: flex;
-    justify-content:end;
+    margin-top: 2em;
     font-family: "Pixelify Sans", serif;
     font-optical-sizing: auto;
     font-weight: 600;
