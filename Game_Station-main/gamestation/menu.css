@@ -75,6 +75,11 @@ h2, h3 {
     padding-right: 1em;    
 }
 
+.aviso{
+    background-color: #0A1F3D;
+    align-itens: center;
+}
+
 .container-pesquisa {
     position: relative;
     display: flex;
