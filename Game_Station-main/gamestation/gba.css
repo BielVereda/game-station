@@ -6,7 +6,7 @@
 
 body {
     background-color: #0A1F3D;
-    font-family: Arial, sans-serif;
+    font-family: "Pixelify Sans", serif;
     color: white;
     display: flex;
     flex-direction: column;
@@ -51,6 +51,7 @@ header a:hover {
 }
 
 h1 {
+    font-family: "Pixelify Sans", serif;
     text-align: center;
     font-size: 2.5rem;
     color: white;
@@ -189,73 +190,4 @@ footer a {
 
 footer a:hover {
     text-decoration: underline;
-}
-
-/* Adicionando Media Queries para Responsividade */
-
-/* Para telas pequenas (smartphones) */
-@media (max-width: 768px) {
-    header {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    header nav {
-        margin-bottom: 10px;
-    }
-
-    h1 {
-        font-size: 2rem;
-        margin-top: 0.5em;
-    }
-
-    .main-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .emulator-block, .myboy-block, .johngba-block {
-        width: 90%;
-    }
-
-    .container {
-        flex-direction: column;
-        align-items: center;
-        width: 100%;
-    }
-
-    .game {
-        width: 90%;
-        margin-bottom: 20px;
-    }
-
-    .game img {
-        width: 100%;
-        height: auto;
-    }
-}
-
-/* Para telas médias (tablets) */
-@media (min-width: 769px) and (max-width: 1024px) {
-    header {
-        flex-wrap: wrap;
-        justify-content: space-between;
-    }
-
-    .main-container {
-        gap: 1em;
-    }
-
-    .container {
-        gap: 10px;
-    }
-
-    .game {
-        width: 45%;
-    }
-
-    .game img {
-        width: 100%;
-        height: auto;
-    }
 }
