@@ -89,7 +89,9 @@ h1 {
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
-.emulator-block, .myboy-block, .johngba-block {
+.emulator-block,
+.myboy-block,
+.johngba-block {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,7 +107,28 @@ h1 {
     text-align: center;
 }
 
-.emulator-block h2, .myboy-block h2, .johngba-block h2 {
+.emulator-block:hover,
+.myboy-block:hover,
+.johngba-block:hover {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    gap: 20px;
+    background-color: rgba(161, 161, 161, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+    text-align: center;
+    transform: scale(1.05)
+}
+
+.emulator-block h2,
+.myboy-block h2,
+.johngba-block h2 {
     text-decoration: none;
     color: white;
     font-size: 1.2rem;
@@ -113,7 +136,9 @@ h1 {
     text-align: center;
 }
 
-.emulator img, .myboy img, .johngba img {
+.emulator img,
+.myboy img,
+.johngba img {
     width: 250px;
     height: auto;
     object-fit: contain;
